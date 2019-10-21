@@ -1,0 +1,94 @@
+body{
+    backround:grey;
+    color:white;
+    padding:0;
+    margin:0;
+}
+/* header  */
+header{
+    background-color: black;
+    height: 400px;
+    padding:20px; 
+    text-align: center;
+    background-image: url("images/nature.jpeg" );
+    background-position: center;
+    background-size: 100%;
+
+}
+header a {
+    
+    
+    color:white;
+    margin:40px;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+
+
+}
+header .logo a{
+    background-color: red;
+    width: 300px;
+    display:inline-block;
+    height:60px;
+    text-indent: -999999px;
+    background-image: url("images/sand.jpeg");
+    backround-size:300px;
+background-repeat: no-repeat;
+top:-30px;
+position:relative;
+}
+nav ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+
+}
+nav li{
+    display:inline-block;
+    padding:20px;
+}
+nav li:hover{
+    text-decoration: underline;
+}
+/* features */
+
+.features figure{
+    margin:auto;
+    text-align: center;
+    width:200px;
+    text-transform: uppercase;
+}
+.features figure img{
+    width: 200px;
+    border-radius: 50%;
+    box-shadow:grey black 0px 0px 10px;
+    border:1px solid white;
+}
+
+.features{
+    backround:white;
+    color: grey;
+    padding:20px;
+    display:flex;
+    flex-direction: row;
+}
+footer{
+    background: grey;
+    height: 25px; 
+    text-align: center;
+    padding:20px 20px;
+    font-size: 12px;
+
+}
+@media screen and (max-width:800px){
+    .features{
+        backround:pink;
+    }
+    @media screen and (max-width: 400px){
+        .features{
+            backround:red;
+        }
+    }
+}
+
